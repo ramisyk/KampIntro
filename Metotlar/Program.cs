@@ -22,7 +22,11 @@ namespace Metotlar
             foreach (Urun urun in urunler)
             {
                 Console.WriteLine(urun.Adi);
+                Console.WriteLine(urun.Fiyati);
+                Console.WriteLine(urun.Aciklama);
+                Console.WriteLine("-----------------------------");
             }
+            Console.WriteLine("Welcome to MANAV. Ne vereyim ablama :D");
 
 
         }
