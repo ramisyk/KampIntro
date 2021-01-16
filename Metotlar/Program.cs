@@ -6,6 +6,7 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
+            SepetManager manager = new SepetManager();
 
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
@@ -23,11 +24,12 @@ namespace Metotlar
             {
                 Console.WriteLine(urun.Adi);
                 Console.WriteLine(urun.Fiyati);
-                Console.WriteLine(urun.Aciklama);
+                Console.WriteLine(urun.Aciklama);            
+                manager.Ekle(urun);
+
                 Console.WriteLine("-----------------------------");
             }
             Console.WriteLine("Welcome to MANAV. Ne vereyim ablama :D");
-
 
         }
     }

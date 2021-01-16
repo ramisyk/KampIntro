@@ -6,5 +6,11 @@ namespace Metotlar
 {
     class SepetManager
     {
+        //Naming convention
+        //syntax
+        public void Ekle(Urun urun)
+        {
+            Console.WriteLine("Sepete Eklendi: " + urun.Adi);
+        }
     }
 }
